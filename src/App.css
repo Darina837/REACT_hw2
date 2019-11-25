@@ -1,22 +1,58 @@
-.App {
-  text-align: center;
+.wrapper {
+  display: flex;
+	flex-direction: column;
+  min-height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.HeaderItem {
+  margin-right: 20px;
+  margin-top: 20px;
+  text-decoration: none;
+  color: rgb(77, 75, 75);
+}
+
+.main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 100px;
+  min-height: calc(100vh - 225px);
 }
 
-.App-link {
-  color: #09d3ac;
+.main input {
+  width: 500px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  background: url(images/klaviatura.png) no-repeat center right;
+  background-size: 20px;
+  padding: 10px 0;
+}
+
+.buttons button {
+  margin-top: 20px;
+  margin-right: 10px;
+  background-color: rgb(190, 190, 190);
+  color: rgb(77, 75, 75);
+  padding: 10px;
+  font-weight: bold;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(190, 190, 190);
+  height: 50px;
+  padding: 0 5px;
+}
+
+div>a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: rgb(77, 75, 75);
 }

@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/REACT_hw2/static/css/main.ced27868.chunk.css",
+    "main.js": "/REACT_hw2/static/js/main.925240b0.chunk.js",
+    "runtime-main.js": "/REACT_hw2/static/js/runtime-main.2de6e846.js",
+    "static/js/2.993bca85.chunk.js": "/REACT_hw2/static/js/2.993bca85.chunk.js",
+    "index.html": "/REACT_hw2/index.html",
+    "precache-manifest.0124edc74cb2ec2d8ecc0dde1fe333e0.js": "/REACT_hw2/precache-manifest.0124edc74cb2ec2d8ecc0dde1fe333e0.js",
+    "service-worker.js": "/REACT_hw2/service-worker.js",
+    "static/media/google.png": "/REACT_hw2/static/media/google.0188c496.png",
+    "static/media/notification.png": "/REACT_hw2/static/media/notification.d3fe33a8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2de6e846.js",
+    "static/js/2.993bca85.chunk.js",
+    "static/css/main.ced27868.chunk.css",
+    "static/js/main.925240b0.chunk.js"
+  ]
+}
